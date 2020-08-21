@@ -9,8 +9,8 @@ After installation, on the page where you use the package you need to insert thi
 ```
 use Baki\LoremIpsum\LoremIpsum;
 ```
-#Simple text
 
+#Simple text
 For generate simple text
 ```
 LoremIpsum::generate();
