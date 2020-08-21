@@ -1,0 +1,30 @@
+{
+  "name": "baki/loremipsum",
+  "description": "Lorem Ipsum generator",
+  "type": "package",
+  "homepage": "https://github.com/BojanDjurdjevic995/lorem-ipsum-generator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bojan Djurdjevic",
+      "email": "djurdjevicbojan12@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "classmap": [
+      "/"
+    ],
+    "psr-4": {
+      "\\": "/src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "\\": "/src"
+    }
+  }
+}
