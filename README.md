@@ -1,5 +1,7 @@
 # Instruction
-Before installing this package, install Intervention Image
+This package is for generate lorem ipsum
+
+For install type this command
 ```
-composer require intervention/image
+composer require baki/loremipsum
 ```
