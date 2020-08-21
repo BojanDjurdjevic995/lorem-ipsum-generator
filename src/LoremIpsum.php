@@ -25,12 +25,6 @@ class LoremIpsum
         'prude'
     ];
 
-    public static function html()
-    {
-        self::$url = str_replace('plaintext/', '', self::$url);
-        return (new static());
-    }
-
     public static function text()
     {
         self::$url .=  'plaintext/';

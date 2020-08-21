@@ -60,3 +60,8 @@ LoremIpsum::short()->count(2)->generate();
 `Allcaps text, long, decorate` : `` LoremIpsum::long()->decorate()->allcaps()->generate(); ``
 
 `Long text, headers, unorder list` : `` LoremIpsum::long()->headers()->ul()->generate(); ``
+
+#Only text
+For return only text without html tags, use method text();
+
+``Example`` : ``LoremIpsum::short()->ol()->text()->generate();``
