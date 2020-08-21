@@ -51,17 +51,35 @@ LoremIpsum::short()->count(2)->generate();
 
 # Here are a few examples
 
-`Short text, order list` : `` LoremIpsum::short()->ol()->generate(); ``
+`Short text, order list` : 
+``` 
+LoremIpsum::short()->ol()->generate(); 
+```
 
-`Verylong text, unorder list, code` : `` LoremIpsum::verylong()->ul()->code()->generate(); ``
+`Verylong text, unorder list, code` : 
+``` 
+LoremIpsum::verylong()->ul()->code()->generate(); 
+```
 
-`Medium text 2 paragrafhs, link, headers` : `` LoremIpsum::medium()->link()->headers()->count(2)->generate(); ``
+`Medium text 2 paragrafhs, link, headers` : 
+``` 
+LoremIpsum::medium()->link()->headers()->count(2)->generate(); 
+```
 
-`Allcaps text, long, decorate` : `` LoremIpsum::long()->decorate()->allcaps()->generate(); ``
+`Allcaps text, long, decorate` : 
+```
+LoremIpsum::long()->decorate()->allcaps()->generate(); 
+```
 
-`Long text, headers, unorder list` : `` LoremIpsum::long()->headers()->ul()->generate(); ``
-
+`Long text, headers, unorder list` :
+ 
+```
+LoremIpsum::long()->headers()->ul()->generate(); 
+```
 # Only text
 For return only text without html tags, use method text();
 
-``Example`` : ``LoremIpsum::short()->ol()->text()->generate();``
+``Example`` : 
+``` 
+LoremIpsum::short()->ol()->text()->generate();
+```
