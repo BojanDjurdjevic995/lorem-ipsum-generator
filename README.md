@@ -10,20 +10,20 @@ After installation, on the page where you use the package you need to insert thi
 use Baki\LoremIpsum\LoremIpsum;
 ```
 
-#Simple text
+# Simple text
 For generate simple text
 ```
 LoremIpsum::generate();
 ```
 
-#Text size
+# Text size
 There are 4 text sizes. They are listed as methods.
 - LoremIpsum::short()->generate();
 - LoremIpsum::medium()->generate();
 - LoremIpsum::long()->generate();
 - LoremIpsum::verylong()->generate();
 
-#Methods
+# Methods
 All possible parameters (References as methods):
 - short
 - medium
@@ -40,7 +40,7 @@ All possible parameters (References as methods):
 - allcaps
 - prude
 
-#Counting
+# Counting
 the ``count`` method is used to obtain the desired paragraph number.
 
 `Example`
@@ -49,7 +49,7 @@ the ``count`` method is used to obtain the desired paragraph number.
 LoremIpsum::short()->count(2)->generate(); 
 ```
 
-#Here are a few examples
+# Here are a few examples
 
 `Short text, order list` : `` LoremIpsum::short()->ol()->generate(); ``
 
@@ -61,7 +61,7 @@ LoremIpsum::short()->count(2)->generate();
 
 `Long text, headers, unorder list` : `` LoremIpsum::long()->headers()->ul()->generate(); ``
 
-#Only text
+# Only text
 For return only text without html tags, use method text();
 
 ``Example`` : ``LoremIpsum::short()->ol()->text()->generate();``
